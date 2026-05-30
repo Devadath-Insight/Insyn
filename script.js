@@ -16,7 +16,7 @@ if(window.matchMedia('(pointer:fine)').matches){
 
 /* ── LOADER ── */
 window.addEventListener('load',()=>{
-  setTimeout(()=>document.getElementById('loader').classList.add('hidden'),2400);
+  setTimeout(()=>document.getElementById('loader').classList.add('hidden'),1500);
 });
 
 /* ── NAVBAR SCROLL ── */
